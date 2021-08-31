@@ -912,7 +912,7 @@ img {
 
 /* Modal form */
 .modal .form {
-  width: 448px;
+  padding: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1043,7 +1043,7 @@ img {
   overflow: hidden;
 }
 
-.polisy-label .icon-policy {
+.icon-policy {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -1060,13 +1060,8 @@ img {
   background-origin: border-box;
 }
 
-.button-confirm {
-  display: flex;
-  justify-content: center;
-}
-
 .btn-modal {
-  display: inline-block;
+  display: block;
   border-radius: 4px;
   padding: 10px 55px;
   min-width: 200px;
@@ -1087,8 +1082,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-confirm .btn-modal:hover,
-.button-confirm .btn-modal:focus {
+.btn-modal:hover,
+.btn-modal:focus {
   background-color: #188ce8;
   cursor: pointer;
 }
