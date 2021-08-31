@@ -642,13 +642,12 @@ img {
 
 /*Footer Form E-mail*/
 .newsletter {
+  display: flex;
   width: 570px;
 }
 
-.newsletter .form {
+.newsletter-field {
   display: flex;
-  flex-direction: column;
-  position: relative;
 }
 
 .subscription-title {
@@ -668,6 +667,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   padding-left: 16px;
+  margin-right: 12px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--first-bg-color);
@@ -676,10 +676,6 @@ img {
 }
 
 .btn-subscription {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
