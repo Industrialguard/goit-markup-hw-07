@@ -94,7 +94,7 @@ img {
   list-style: none;
 }
 
-.navigation_item {
+.navigation__item {
   margin-right: 50px;
 }
 
@@ -311,7 +311,7 @@ img {
 }
 
 /*Activity */
-.section-activity {
+.activity {
   padding-top: 0;
 }
 
@@ -349,7 +349,7 @@ img {
 }
 
 /* Team */
-.section-team {
+.team {
   background-color: var(--hero-text-color);
 }
 
