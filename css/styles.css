@@ -88,10 +88,6 @@ img {
   color: var(--logo-text-color);
 }
 
-.logo--white {
-  color: var(--white-text-color);
-}
-
 .navigation__list {
   display: flex;
   margin-left: 93px;
@@ -501,6 +497,13 @@ img {
   background-color: var(--first-bg-color);
 }
 
+.footer__logo {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 20px;
+  color: var(--white-text-color);
+}
+
 .address__text {
   display: inline-block;
   margin-bottom: 9px;
@@ -599,8 +602,13 @@ img {
 
 /*Footer Form E-mail*/
 .newsletter {
-  display: flex;
   width: 570px;
+}
+
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .newsletter__field {
