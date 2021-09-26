@@ -127,11 +127,11 @@ img {
   color: var(--accent-color);
 }
 
-.navigation__link.current {
+.navigation__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.navigation__link--current::after {
   content: "";
   position: absolute;
   display: block;
