@@ -58,11 +58,11 @@ img {
 }
 
 /* Site header */
-.header-page {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
-.header-content {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -84,8 +84,12 @@ img {
   line-height: 1.19;
 }
 
-.logo-title {
+.logo--black {
   color: var(--logo-text-color);
+}
+
+.logo--white {
+  color: var(--white-text-color);
 }
 
 .navigation__list {
@@ -492,22 +496,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--first-bg-color);
-}
-
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.footer__title {
-  color: var(--white-text-color);
 }
 
 .address__text {
