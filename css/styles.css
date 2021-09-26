@@ -541,7 +541,8 @@ img {
   color: var(--accent-color);
 }
 
-.footer__invite__title {
+/* Footer invite */
+.footer-invite__title {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -553,12 +554,12 @@ img {
   color: var(--white-text-color);
 }
 
-.footer__invite__item {
+.footer-invite__item {
   list-style: none;
   margin-right: 10px;
 }
 
-.footer__invite__item:last-child {
+.footer-invite__item:last-child {
   margin-right: 0;
 }
 
@@ -595,7 +596,7 @@ img {
   align-items: baseline;
 }
 
-.footer__invite__list {
+.footer-invite__list {
   display: flex;
   list-style: none;
 }
