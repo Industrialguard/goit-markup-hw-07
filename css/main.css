@@ -98,8 +98,8 @@ img {
   letter-spacing: 0.06em;
   font-family: inherit;
   border-color: transparent;
-  background-color: var(--accent-color);
-  color: var(--white-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -165,11 +165,11 @@ img {
 }
 
 .navigation__link:hover, .navigation__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .navigation__link--current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .navigation__link--current::after {
@@ -233,10 +233,10 @@ img {
   fill: currentColor;
 }
 
-logo {
+.logo {
   padding-top: 24px;
   padding-bottom: 25px;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
@@ -744,7 +744,7 @@ logo {
 }
 
 .clients__icon {
-  fill: var(--icon-primary-color);
+  fill: #afb1b8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

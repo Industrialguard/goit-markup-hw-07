@@ -34,12 +34,12 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .navigation__link--current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .navigation__link--current::after {
