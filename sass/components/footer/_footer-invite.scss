@@ -43,7 +43,7 @@
   &:hover,
   &:active,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 

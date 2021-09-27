@@ -14,7 +14,7 @@
 /*Набор шрифтов*/
 body {
   background-color: #fff;
-  color: var(--primary-text-color);
+  color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -866,7 +866,7 @@ img {
 }
 
 .footer-invite__link:hover, .footer-invite__link:active, .footer-invite__link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer-invite__icon {
