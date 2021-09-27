@@ -42,6 +42,11 @@ body {
   padding-top: 0;
 }
 
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Global elements */
 ul {
   list-style: none;
