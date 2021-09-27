@@ -794,13 +794,13 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden {
+.backdrop--is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
 
-.backdrop.is-hidden .modal {
+.backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
@@ -850,7 +850,7 @@ img {
 }
 
 /* Modal form */
-.modal .form {
+.form {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
